@@ -4,7 +4,7 @@ require_once 'Person.php';
 require_once 'PeopleList.php';
 require_once 'Database.php';
 
-// Пример использования task1
+// Пример использования task1 
 $person = new Person(null, 'John', 'Doe', '1990-05-15', 0, 'New York');
 $person->save();
 var_dump($person);
