@@ -33,3 +33,4 @@ $people_list = new PeopleList($ids);
 $people = $people_list->getPeople();
 var_dump($people);
 $people_list->deletePeople();
+ 
